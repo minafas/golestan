@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+}
+@font-face{
+    font-family: Sans;
+    src: url(./../../../fonts/IRANSansWeb-Light.eot);
+    src: url(./../../../fonts/IRANSansWeb-Light.woff);
+    src: url(./../../../fonts/IRANSansWeb-Light.woff2);
+    src: url(./../../../fonts/IRANSansWeb-Light.ttf);
+}

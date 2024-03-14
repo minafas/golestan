@@ -1,0 +1,81 @@
+.Responsibility {
+  width: 100%;
+  height: 1150px;
+  background-color: #e9d69f;
+  .Responsibility__center {
+    width: 100%;
+    height: 600px;
+    row-gap: 10px;
+    background-color: #105153;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .pic__hospital {
+      & img {
+        display: inline-block;
+        position: absolute;
+        right: 550px;
+      }
+    }
+    & h2 {
+      color: #cfe7e1;
+      font-size: 18px;
+      font-family: Sans;
+      word-spacing: 5px;
+      opacity: 0.8;
+    }
+    .Golestan__Social {
+      & span {
+        color: #109cc4;
+        font-size: 30px;
+      }
+    }
+    .Mahdi__Hospital {
+      & h3 {
+        color: #b7af9c;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    }
+  }
+  .Responsibility__bottom {
+    width: 100%;
+    height: 520px;
+    display: flex;
+    flex-flow: column wrap-reverse;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    & h2 {
+      color: red;
+      width: 600px;
+      font-family: Sans;
+      text-align: right;
+    }
+    & p {
+      width: 600px;
+      text-align: justify;
+      font-family: sans;
+      word-spacing: 5px;
+      & span {
+        color: red;
+      }
+    }
+    & a {
+      width: 150px;
+      height: 40px;
+      display: flex;
+      text-decoration: none;
+      justify-content: center;
+      font-family: Sans;
+      background-color: #ffffff;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 40px;
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+}

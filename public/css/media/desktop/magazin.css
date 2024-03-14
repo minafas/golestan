@@ -1,0 +1,96 @@
+.magazin {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 800px;
+  background-color: #cde4b0;
+
+  .magazin__title {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    align-items: center;
+    line-height: 80px;
+    & span {
+      font-size: 20px;
+      font-family: Sans;
+      font-weight: bold;
+      color: red;
+      margin-right: 300px;
+    }
+  }
+  .magazin__center {
+    width: 85%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 20px;
+    & img {
+      display: inline-block;
+      width: 300px;
+    }
+    .nodel {
+      width: 300px;
+      background-color: whitesmoke;
+      padding: 0 10px 0 10px;
+
+      display: flex;
+      flex-flow: column wrap;
+
+      & a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Sans;
+        color: red;
+      }
+      & p {
+        font-family: Sans;
+        text-align: justify;
+      }
+    }
+    .soup {
+      width: 300px;
+      background-color: whitesmoke;
+      padding: 0 10px 0 10px;
+
+      display: flex;
+      flex-flow: column wrap;
+
+      & a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Sans;
+        color: red;
+      }
+      & p {
+        font-family: Sans;
+        text-align: justify;
+      }
+    }
+    .chilakile {
+      width: 300px;
+      background-color: whitesmoke;
+      padding: 0 10px 0 10px;
+
+      display: flex;
+      flex-flow: column wrap;
+
+      & a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Sans;
+        color: red;
+      }
+      & p {
+        font-family: Sans;
+        text-align: justify;
+      }
+      .chilakile-3 {
+        padding-top: 30px;
+      }
+    }
+  }
+}

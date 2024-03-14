@@ -1,0 +1,79 @@
+.rice {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 20px 0;
+  position: relative;
+  .rice__label {
+    width: 250px;
+    height: 90px;
+    background-color: crimson;
+    display: flex;
+    flex-flow: column wrap;
+    padding-right: 10px;
+    border-radius: 3px;
+    position: absolute;
+    top: 490px;
+    right: 400px;
+    & h2 {
+      font-family: Sans;
+      color: whitesmoke;
+      font-size: 25px;
+      opacity: 0.7;
+    }
+    & h3 {
+      font-family: Sans;
+      color: whitesmoke;
+      font-size: 16px;
+    }
+  }
+  .rice__introduction {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 60px;
+    align-items: center;
+    & h2 {
+      width: 700px;
+      font-family: Sans;
+      color: crimson;
+      font-size: 25px;
+      opacity: 0.7;
+      justify-content: start;
+    }
+    & p {
+      width: 700px;
+      height: 150px;
+      padding-top: 5px;
+      text-align: justify;
+      font-family: sans;
+      word-spacing: 5px;
+      opacity: 0.6;
+    }
+    .rice__description {
+      display: flex;
+      width: 700px;
+      margin-right: 0 100px;
+      column-gap: 10px;
+      & a {
+        display: flex;
+        justify-content: center;
+        width: 130px;
+        font-family: Sans;
+        font-size: 16px;
+        height: 40px;
+        color: #002021;
+        border-radius: 5px;
+        text-decoration: none;
+        line-height: 40px;
+        opacity: 0.9;
+        background-color: #ffffff;
+        border: 1px solid #0020212e;
+      }
+      & :hover {
+        background-color: crimson;
+        color: whitesmoke;
+      }
+    }
+  }
+}
